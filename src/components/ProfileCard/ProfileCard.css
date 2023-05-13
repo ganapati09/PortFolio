@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+
+  }
+  
+  .card {
+    top: calc(50% - 100px);
+    left: calc(50% - 200px);
+    background-color: #fff;
+    border: solid 1px #fff;
+    box-shadow:
+      inset 60px 0 120px #f0f,
+      inset -60px 0 120px #0ff;
+   
+  }
+
+  .pcard{
+      top: calc(50% - 100px);
+      left: calc(50% - 200px);
+      background-color: #fff;
+      border: solid 1px #fff;
+
+  }

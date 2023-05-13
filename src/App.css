@@ -1,0 +1,92 @@
+body {
+	background: #cdecff;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 700;
+}
+
+
+.App {
+  text-align: center;
+}
+
+/* 
+p {
+	white-space: pre-line;
+}
+.container {
+	display: inline block;
+	border: 1px solid black;
+	margin: 0px 250px 200px;
+	width: 760px;
+	height: 380px;
+
+  }
+
+  .grid {
+	display: grid;
+	grid-template-columns: auto auto ;
+	grid-column-gap: 20px;
+  }
+  
+  .container-1 {
+	margin-left: 0;
+	padding: 5px;
+	background: red;
+  }
+  
+  .container-2 {
+	padding: 5px;
+	background: red;
+  }
+  
+  
+  .profile-card-container {
+	flex: 1;
+  }
+  
+  .content {
+	flex: 2;
+	padding: 0 20px;
+	max-width: calc(100% - 200px);
+	margin: 0 50px; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .description {
+	max-width: 100%;
+	text-align: center;
+  }
+  
+
+  
+
+.rainbow-border {
+	--angle: 0deg;
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    width: 100%;
+	border: 6px solid;
+	border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+	animation: 10s rotate linear infinite;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+@keyframes rotate {
+	to {
+		--angle: 360deg;
+	}
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+} */

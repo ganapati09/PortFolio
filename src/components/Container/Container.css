@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    border:none;
+    width: 780px;
+    height: 365px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* two columns */
+    grid-template-rows: 365px; /* one row */
+    gap: 10px; /* spacing between columns */
+    width: 780px;
+    height: 365px;
+    background-color: #cdecff;
+    margin: 20px auto;
+  }
+
+
+  .pcard {
+        top: calc(50% - 100px);
+        left: calc(50% - 200px);
+        background-color: #fff;
+        border: solid 1px #000000;
+    
+        box-shadow:
+          inset 60px 0 120px #f0f,
+          inset -60px 0 120px #0ff; 
+      }
+
+
+  p{
+    animation: meals-appear 1s ease-out  forwards;
+  }
+
+  @keyframes meals-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+    
